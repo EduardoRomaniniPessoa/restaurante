@@ -18,7 +18,7 @@ html {
     overflow-x: hidden;
 }
 
-/* Menu */
+/* Menu papito */
 
 .content {
     width: 100vw;
@@ -40,7 +40,8 @@ html {
 }
 
 .logo h3 {
-    color: black;
+    color: wheat;
+    padding-left: 40px;
     font-size: 1.6rem;
 }
 
@@ -62,7 +63,7 @@ html {
     padding-right: 1rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
-    color: white;
+    color: wheat;
     font-size: 1.75rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -135,4 +136,88 @@ color:wheat ;
     width: 480px;
     display: flex;
     justify-content: space-between;
+}
+
+/*Sobrenos ne pae*/
+
+.sobre-nos{
+    background-color:darkred;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos img {
+    width: 600px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border: 4px solid wheat;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contentsobre p {
+    text-align: center;
+    font-size: 1.4rem;
+    width: 400px;
+}
+
+/*Tabelinha do cardapio papaeeeeeee*/
+
+.cardapio {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cardapio h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-bottom: 10rem;
+    margin-right: 10rem;
+}
+
+.cardapio table{
+    font-size: 1.3;
+    margin-bottom: 10rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+    margin-right: 10rem;
+}
+
+.cardapio tr, th{
+    border: 1px solid darkred;
+
+}
+
+.footer {
+    align-items: center;
+    background-color:  darkred;
+    text-align: center;
+    color:wheat
+    
+
 }
